@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.loadbar {
+    width: 100%;
+    background-color: rgba(35, 35, 35, 0.8);
+    height: 1.5vh;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.thingy {
+    width: 10%;
+    background-color: rgb(100, 100, 100);
+    height: 1.5vh;
+
+    position: absolute;
+    left: 0%;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
